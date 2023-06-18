@@ -1,0 +1,31 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "Api Rest con express y mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Mongo",
+    "Server",
+    "Mongoose"
+  ],
+  "author": " <cesar_ortize@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/register": "^7.21.0"
+  }
+}
